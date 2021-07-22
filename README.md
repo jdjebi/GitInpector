@@ -1,6 +1,6 @@
 # Coding Interview Developer Frontend DRI - GitInpector
 
-Ce dépôt github contient les sources des problèmes de Frontend imposé par la DRI de CinetPay. L'application obtenue suite a nos travaux, que nous avons nommées **GitInspector**, tente de répondre aux exigences des problèmes par la proposition des fonctionnalitées suivantes:
+Ce dépôt github contient les sources des problèmes de Frontend imposé par la DRI de CinetPay. L'application obtenue suite a nos travaux; que nous avons nommées **GitInspector**; tente de répondre aux exigences des problèmes par la proposition des fonctionnalitées suivantes:
 
 - Connexion avec timeout total de 30 secondes
 - Recherche du profil git d'un candidat
@@ -8,9 +8,12 @@ Ce dépôt github contient les sources des problèmes de Frontend imposé par la
 
 Image de l'interface principale.
 
-Ce readme représente à la fois le guide d'installation et manuel d'utilisation et suivra le plan suivant:
+Ce readme représente à la fois le guide d'installation et le manuel d'utilisation et suivra le plan suivant:
 
 - Parlons technique
+    - Outils de développement
+    - Modèle d'optimisation
+    - L'API Github
 - Installation
 - Manuel d'utilisation
 - Captures d'écran
@@ -30,27 +33,15 @@ Après analyse des problèmes, nous avons déduit que le Frontend ne sera pas so
 
 ### L'API Github
 
-Il s'agit d'un point à lire attentivement. Pour rechercher les profils des candidats sur Github nous avons utilisé les endpoints suivants: `GET /search/users?q=:q&per_page=10&page=1` et `GET /search/users/:login`. Remarquons que nous avons volontairement réduit le nombre de candidats à 10. En effet, dans le cadre de l'interview nous avons réduis ce nombre pour réduire les appels d'API car nous limités en nombre d'appels par heure. Etant donné que l'affiche des candidats néccessite `1 + nombre_de_resultats` appels alors qui est possible finir notre quotas un seul appel. C'est pourquoi nous avons opté pour 10 candidats par requête.
+Il s'agit d'un point à lire attentivement. Pour rechercher les profils des candidats sur Github nous avons utilisé les endpoints suivants: `GET /search/users?q=:q&per_page=10&page=1` et `GET /search/users/:login`. Remarquons que nous avons volontairement réduit le nombre de candidats à 10. En effet, dans le cadre de l'interview nous avons réduis ce nombre pour réduire les appels d'API car nous sommes limités en nombre d'appels par heure. Etant donné que l'affichage des candidats néccessite `1 + nombre_de_resultats` appels d'API, il est donc possible de finir notre quotas d'appel un seul. C'est pourquoi nous avons opté pour 10 candidats par requête. Nous utilisons notre Github "personal access token" pour étendre le nombre d'appels. Ainsi, nous vous prions de faite attention à ne pas le diffuser.
 
-## Project setup
-```
-npm install
-```
+## Installation
 
-### Compiles and hot-reloads for development
+Dans votre terminal, taper les commandes suivantes
 ```
-npm run serve
-```
+git clone https://github.com/jdjebi/GitInpector.git // Téléchargement 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+npm install // Installation des dépendances
 
-### Lints and fixes files
+npm run serve // Lancement de l'application
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
