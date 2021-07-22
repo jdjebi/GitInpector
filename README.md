@@ -73,7 +73,7 @@ Pour rechercher un candidat, entrer son nom dans le champs de recherche, puis va
 
 ![Page de recherche](doc/home.png)
 
-Lorsque vous cliquez sur une carte d'un candidat, cette dernière garde une surbrillance de bordure verte, et vous observerez en-dessous de la zone de recherche une bulle répresenant le candidat, indiquant qu'il a été selectionné. Vous ne pouvez sélectionner que 3 candidats. Si vous sélectionnez un autre candidat, la bulle du candidat la plus ancienne dispatatra pour permettre à la nouvelle de s'afficher au tout début des bulles. 
+Lorsque vous cliquez sur une carte d'un candidat, cette dernière garde une surbrillance de bordure verte, et vous observerez en-dessous de la zone de recherche une bulle répresenant le candidat, indiquant qu'il a été selectionné. Vous ne pouvez sélectionner que trois candidats. Si vous sélectionnez un autre candidat, la bulle du candidat la plus ancienne dispatatra pour permettre à la nouvelle de s'afficher au tout début des bulles. 
 
 ### Historique de recherche
 
