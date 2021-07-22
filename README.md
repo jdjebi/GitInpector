@@ -98,8 +98,29 @@ Les tableaux de comparaison sont les suivants:
 
 ## Guide de modification de la charte graphique
 
-(Tableau de la charte)
+Le tableau ci-dessous présente les caractéristiques visuelles de l'interface.
 
+| Composant                | Style                                                                            |
+|--------------------------|----------------------------------------------------------------------------------|
+| Couleur principale       | #198754 (Vert)                                                                   |
+| Couleur de fond          | blanc                                                                            |
+| Couleur de base du texte | noire                                                                            |
+| Taille de base du texte  | Taille de boostrap par défaut                                                    |
+| Contenu secondaire       | Petite/moyenne taille et/ou couleur grise/vert                                   |
+| Contenu important 2      | Moyenne/Grande taille et/ou couleur noire/vert                                   |
+| Police                   | Police de boostrap par défaut                                                    |
+| Boutons                  | Bouton (bootstrap) vert et rouge uniquement                                      |
+| Carte candidat           | Bordure(grise), ombre(gris léger), bordure arrondie, survole(surbrillance verte) |
+| Photo candidat           | Totalement arrondie                                                              |
+| Bulle candidat           | Semi arrondie                                                                    |
+| Champ                    | Bordure grise, fond blanc, ombre légère                                          |
+
+Pour mettre à jour la direction visuelle, il faudra suivre les étapes suivantes:
+
+- Identifier les composants concerné
+- Opérer les modifications voulues
+- Vérifier l'armonie des modifications avec l'ensemle des autres composants
+- S'assurer de versionner les nouveaux styles
 
 
 
