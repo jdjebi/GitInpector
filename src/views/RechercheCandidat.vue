@@ -296,12 +296,13 @@
 </template>
 
 <script>
-// const axios = require('axios');
+
+document.title = 'GitInpector'
 
 const { Octokit } = require("@octokit/rest");
 
 const octokit = new Octokit({
-    auth:'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',
+    auth:'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',
 })
 
 export default {

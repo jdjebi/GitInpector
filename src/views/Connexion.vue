@@ -39,6 +39,7 @@
 
 <script>
 
+document.title = 'GitInpector - Connexion'
 
 export default {
 

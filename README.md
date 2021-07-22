@@ -10,12 +10,12 @@ Image de l'interface principale.
 
 Ce readme représente à la fois le guide d'installation et le manuel d'utilisation et suivra le plan suivant:
 
-- Parlons technique
-    - Outils de développement
-    - Modèle d'optimisation
-    - L'API Github
-- Installation
-- Manuel d'utilisation
+- [Parlons technique](#parlons-technique)
+    - [Outils de développement](#outils-de-développement)
+    - [Modèle d'optimisation](#modèle-d'optimisation)
+    - [L'API Github](#l'api-github)
+- [Installation](#installation)
+- [Manuel d'utilisation](#manuel-d'utilisation)
 - Captures d'écran
 
 ## Parlons technique
@@ -39,9 +39,14 @@ Il s'agit d'un point à lire attentivement. Pour rechercher les profils des cand
 
 Dans votre terminal, taper les commandes suivantes
 ```
-git clone https://github.com/jdjebi/GitInpector.git // Téléchargement 
+git clone https://github.com/jdjebi/GitInpector.git // Téléchargement du projet sur votre machine
+
+cd GitInpector/
 
 npm install // Installation des dépendances
 
 npm run serve // Lancement de l'application
 ```
+En principe l'application se lancera à l'adresse suivante: `[http://localhost:8080/](http://localhost:8080/ )` 
+
+## Manuel d'utilisation
