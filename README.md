@@ -98,7 +98,7 @@ Les tableaux de comparaison sont les suivants:
 
 ## Guide de modification de la charte graphique
 
-Le tableau ci-dessous présente les caractéristiques visuelles de l'interface.
+Le tableau ci-dessous présente les caractéristiques visuelles de l'interface de GitInspector.
 
 | Composant                | Style                                                                            |
 |--------------------------|----------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Le tableau ci-dessous présente les caractéristiques visuelles de l'interface.
 | Couleur de base du texte | noire                                                                            |
 | Taille de base du texte  | Taille de boostrap par défaut                                                    |
 | Contenu secondaire       | Petite/moyenne taille et/ou couleur grise/vert                                   |
-| Contenu important 2      | Moyenne/Grande taille et/ou couleur noire/vert                                   |
+| Contenu important        | Moyenne/Grande taille et/ou couleur noire/vert, texte gras                       |
 | Police                   | Police de boostrap par défaut                                                    |
 | Boutons                  | Bouton (bootstrap) vert et rouge uniquement                                      |
 | Carte candidat           | Bordure(grise), ombre(gris léger), bordure arrondie, survole(surbrillance verte) |
@@ -117,10 +117,10 @@ Le tableau ci-dessous présente les caractéristiques visuelles de l'interface.
 
 Pour mettre à jour la direction visuelle, il faudra suivre les étapes suivantes:
 
-- Identifier les composants concerné
-- Opérer les modifications voulues
-- Vérifier l'armonie des modifications avec l'ensemle des autres composants
-- S'assurer de versionner les nouveaux styles
+1. Identifier les composants concerné
+2. Opérer les modifications voulues
+3. Vérifier l'armonie des modifications avec l'ensemle des autres composants
+4. S'assurer de versionner les nouveaux styles
 
 
 
