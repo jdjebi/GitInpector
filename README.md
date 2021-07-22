@@ -94,7 +94,7 @@ Les tableaux de comparaison sont les suivants:
 - Tableau du TOP par repos: Classement des candidats en fonction de leur nombre de repository public
 - Tableau du TOP par qualité de profil: Classement des candidats par qualité de profil
 
-![Page de comparaison - tableaux](doc/comparaison.2png)
+![Page de comparaison - tableaux](doc/comparaison2.png)
 
 ## Guide de modification de la charte graphique
 
