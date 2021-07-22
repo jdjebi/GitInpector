@@ -75,4 +75,29 @@ Pour rechercher un candidat, entrer son nom dans le champs de recherche, puis va
 
 Lorsque vous cliquez sur une carte d'un candidat, cette dernière garde une surbrillance de bordure verte, et vous observerez en-dessous de la zone de recherche une bulle répresenant le candidat, indiquant qu'il a été selectionné. Vous ne pouvez sélectionner que 3 candidats. Si vous sélectionnez un autre candidat, la bulle du candidat la plus ancienne dispatatra pour permettre à la nouvelle de s'afficher au tout début des bulles. 
 
+### Historique de recherche
+
+Toutes les recherches éffectuées sont enregistrées dans une historique, qui est accéssible en cliquant sur le lien historique dans la barre de navigation.
+
+![Page de recherche](doc/historique.png)
+
+### Comparaison des candidats
+
+Lorsque vous sélectionnez au moins deux candidats, vous avez accès au module de compraison. Ce module expose clairement les candidats sélectionnés côte à côte et génère quatre tableaux classant les candidats selon différents critques pour affiner la comparaison des profils. 
+
+![Page de comparaison - candidats](doc/comparaison.png)
+
+Les tableaux de comparaison sont les suivants:
+
+- Tableau du TOP par followers: Classement des candidats en fonction de leur nombre de followers
+- Tableau du TOP par following: Classement des candidats en fonction de leur nombre de profil Github suivi
+- Tableau du TOP par repos: Classement des candidats en fonction de leur nombre de repository public
+- Tableau du TOP par qualité de profil: Classement des candidats par qualité de profil
+
+![Page de comparaison - tableaux](doc/comparaison.2png)
+
+## Guide de modification de la charte graphique
+
+
+
 
