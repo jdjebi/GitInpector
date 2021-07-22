@@ -47,6 +47,19 @@ npm install // Installation des dépendances
 
 npm run serve // Lancement de l'application
 ```
-En principe l'application se lancera à l'adresse suivante: `[http://localhost:8080/](http://localhost:8080/ )` 
+En principe l'application se lancera à l'adresse suivante: [http://localhost:8080/](http://localhost:8080/)
 
 ## Manuel d'utilisation
+
+### Connexion
+
+Lorsque vous accédez à l'adresse de l'application, l'interface ci-dessous s'affichera:
+
+![Page de connexion](doc/login.png)
+
+Il s'agit de la page de connexion. Suivez simplement  le protocol de connexion qui se fait en deux étapes de 15 secondes de post-traitement chacune, donc un total de 30 secondes. Puis effectuer le protocol de connexion suivez les étapes suivantes
+
+1. Entrer un identifiant quelconque, puis valider avec la touche entrée
+2. Entrer un mot de passe quelconque, puis valider avec la touche entrée
+
+Après avoir valider votre mot de passe vous serai redirigez vers la page de recherche.

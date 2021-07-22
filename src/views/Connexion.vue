@@ -1,6 +1,9 @@
 <template>
 
     <main>
+        <div class="logo-container">
+            <span class="fw-bold text-white h4">GitInspector <i class="fa fa-user-secret"></i></span>
+        </div>  
         <div id="login-form-overlay"></div>
         <div id="login-form">
             <div class="content d-flex flex-column justify-content-center align-items-center">
@@ -148,6 +151,13 @@ main{
     height: 100%;
     background-color: black;
     opacity: 0.6;
+}
+
+.logo-container{
+    position: absolute;
+    z-index: 50;
+    top: 20px;
+    left: 40px
 }
 
 </style>

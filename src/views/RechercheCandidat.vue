@@ -302,7 +302,7 @@ document.title = 'GitInpector'
 const { Octokit } = require("@octokit/rest");
 
 const octokit = new Octokit({
-    auth:'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',
+    auth:'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',
 })
 
 export default {
