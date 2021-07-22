@@ -55,7 +55,7 @@ En principe l'application se lancera à l'adresse suivante: [http://localhost:80
 
 Lorsque vous accédez à l'adresse de l'application, l'interface ci-dessous s'affichera:
 
-![Page de connexion](doc/login.png)
+![Page de connexion](doc/login2.png)
 
 Il s'agit de la page de connexion. Suivez simplement  le protocol de connexion qui se fait en deux étapes de 15 secondes de post-traitement chacune, donc un total de 30 secondes. Puis effectuer le protocol de connexion suivez les étapes suivantes
 
