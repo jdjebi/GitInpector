@@ -45,6 +45,7 @@
                 </div>
             </div>      
         </div>
+        
     </div>
 
     <HistoryBox 
@@ -69,7 +70,7 @@ document.title = 'GitInpector'
 
 const { Octokit } = require("@octokit/rest");
 
-var access_token = "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";
+var access_token = "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";
 
 const octokit = new Octokit({
     auth:access_token,

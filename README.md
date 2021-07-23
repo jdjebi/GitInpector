@@ -19,6 +19,7 @@ Ce readme représente à la fois le guide d'installation et le manuel d'utilisat
     - [Historique de recherche](#historique-de-recherche)
     - [Comparaison des candidats](#comparaison-des-candidats)
     - [Guide de modification de la charte graphique](#guide-de-modification-de-la-charte-graphique) 
+- [En cas de problème](#en-cas-de-probleme) 
 
 ## Parlons technique
 
@@ -51,7 +52,7 @@ npm install // Installation des dépendances
 npm run serve // Lancement de l'application 
 ```
 
-En principe l'application se lancera à l'adresse suivante sinon consultez les logs de la dernière commande pour voir l'adresse: [http://localhost:8080/](http://localhost:8080/)
+En principe l'application se lancera à l'adresse suivante sinon consultez les logs de la dernière commande pour voir l'adresse: [http://localhost:8080/](http://localhost:8080/).
 
 ## Manuel d'utilisation
 
@@ -122,3 +123,7 @@ Pour mettre à jour la direction visuelle, il faudra suivre les étapes suivante
 2. Opérer les modifications voulues
 3. Vérifier l'harmonie des modifications avec l'ensemble des autres composants
 4. S'assurer de versionner les nouveaux styles
+
+## En cas de problème
+
+Le problème le plus probable de se produire est le non fonctionnement de l'API Github en raison de l'expiration ou de l'invalidité de notre access token. Dans ce cas, nous vous prions d'utiliser votre access token, que vous pouvez trouver ici [https://github.com/settings/tokens](https://github.com/settings/tokens).  Pour que votre access token soit pris en compte par GitInpector, vous devez modifier la ligne `var access_token = "ACCESS_TOKEN";` du fichier `views\RechercheCandidat.vue`.
