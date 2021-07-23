@@ -9,16 +9,16 @@ Ce dépôt Github contient les sources des problèmes de Frontend imposé par la
 Ce readme représente à la fois le guide d'installation et le manuel d'utilisation de l'application et suivra le plan suivant:
 
 - [Parlons technique](#parlons-technique)
-- [Outils de développement](#outils-de-développement)
-- [Modèle d'optimisation](#modèle-d'optimisation)
-- [L'API Github](#l'api-github)
+    - [Outils de développement](#outils-de-développement)
+    - [Modèle d'optimisation](#modèle-d'optimisation)
+    - [L'API Github](#l'api-github)
 - [Installation](#installation)
 - [Manuel d'utilisation](#manuel-d'utilisation)
-- [Connexion](#connexion)
-- [Rechercher un candidat](#rechercher-un-candidat)
-- [Historique de recherche](#historique-de-recherche)
-- [Comparaison des candidats](#comparaison-des-candidats)
-- [Guide de modification de la charte graphique](#guide-de-modification-de-la-charte-graphique) 
+    - [Connexion](#connexion)
+    - [Rechercher un candidat](#rechercher-un-candidat)
+    - [Historique de recherche](#historique-de-recherche)
+    - [Comparaison des candidats](#comparaison-des-candidats)
+    - [Guide de modification de la charte graphique](#guide-de-modification-de-la-charte-graphique) 
 
 ## Parlons technique
 
