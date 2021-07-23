@@ -70,7 +70,7 @@ document.title = 'GitInpector'
 
 const { Octokit } = require("@octokit/rest");
 
-var access_token = "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";
+var access_token = "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";
 
 const octokit = new Octokit({
     auth:access_token,
