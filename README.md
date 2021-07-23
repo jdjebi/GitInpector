@@ -101,7 +101,7 @@ Les tableaux de comparaison sont les suivants:
 Le tableau ci-dessous présente les caractéristiques visuelles de l'interface de GitInspector.
 
 | Composant                | Style                                                                            |
-
+|--------------------------|----------------------------------------------------------------------------------|
 | Couleur principale       | #198754 (Vert)                                                                   |
 | Couleur de fond          | blanc                                                                            |
 | Couleur de base du texte | noire                                                                            |

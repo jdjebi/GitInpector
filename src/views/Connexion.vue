@@ -1,5 +1,4 @@
 <template>
-
     <main>
         <div class="logo-container">
             <span class="fw-bold text-white h4">GitInspector <i class="fa fa-user-secret"></i></span>
@@ -20,24 +19,14 @@
                     </template>
                 </div>
                 <div class="mb-3">
-                    <form v-on:submit.prevent="startAuthentication">
-                        
+                    <form v-on:submit.prevent="startAuthentication">                      
                         <input v-if="showUsername" class="login-form-input form-control border-0 shadow" type="text" name="username" placeholder="Entrer votre nom d'utilisateur" v-model="username" v-bind:disabled="processing">
-
                         <input v-if="showPassword" class="login-form-input form-control border-0 shadow" type="password" name="username" placeholder="Entrer votre mot de passe" v-model="password" v-bind:disabled="processing">
-
                     </form>
-                </div>
-                <div>
-                    <template v-if="processing">
-                        <div>
-                        </div>
-                    </template>
                 </div>
             </div>
         </div>
     </main>
-
 </template>
 
 <script>
@@ -72,10 +61,13 @@ export default {
 
     methods: {
         startAuthentication(){
+            /* Gére le protocol de d'authentification lors de la validation du formulaire de connexion */
 
             var vm = this;
 
-            if(this.username && !this.usernameChecked){
+            var loginProcessTimeout = 15000;
+
+            if(this.username && !this.usernameChecked){ // Etape 1: Validation de l'identifiant - Si le nom d'utilisateur n'a pas encore été vérifié
 
                 this.loginProcessMessage = "Vérification en cours. Patientez 15 secondes...";
 
@@ -91,9 +83,9 @@ export default {
 
                     vm.processing = false;
 
-                },1000);
+                },loginProcessTimeout);
 
-            }else if(this.password && !this.passwordChecked){
+            }else if(this.password && !this.passwordChecked){ // Etape 1: Validation du mot de passe - Si le mot de passe n'a pas encore été vérifié
 
                 this.loginProcessMessage = "Vérification en cours. Patientez encore 😊 15 secondes...";
 
@@ -105,7 +97,7 @@ export default {
 
                     vm.$router.push('/recherche/candidat');
 
-                },1000)
+                },loginProcessTimeout);
 
             }
 
@@ -159,5 +151,4 @@ main{
     top: 20px;
     left: 40px
 }
-
 </style>
