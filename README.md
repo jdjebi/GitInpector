@@ -1,4 +1,4 @@
-# Coding Interview Developer Frontend DRI - GitInpector
+# Coding Interview Developer Frontend DRI - GitInspector
 
 Ce dépôt Github contient les sources des problèmes de Frontend imposé par la DRI de CinetPay. L'application obtenue suite à nos travaux; que nous avons nommé **GitInspector**; tente de répondre aux exigences des problèmes par la proposition des fonctionnalités suivantes:
 
@@ -43,9 +43,9 @@ Il s'agit d'un point à lire attentivement. Pour rechercher les profils des cand
 Dans votre terminal, taper les commandes suivantes:
 
 ```
-git clone https://github.com/jdjebi/GitInpector.git // Téléchargement du projet sur votre machine
+git clone https://github.com/jdjebi/GitInspector.git // Téléchargement du projet sur votre machine
 
-cd GitInpector/
+cd GitInspector/
 
 npm install // Installation des dépendances
 
@@ -126,4 +126,4 @@ Pour mettre à jour la direction visuelle, il faudra suivre les étapes suivante
 
 ## En cas de problème
 
-Le problème le plus probable de se produire est le non fonctionnement de l'API Github en raison de l'expiration ou de l'invalidité de notre access token. Dans ce cas, nous vous prions d'utiliser votre access token, que vous pouvez trouver ici [https://github.com/settings/tokens](https://github.com/settings/tokens).  Pour que votre access token soit pris en compte par GitInpector, vous devez modifier la ligne `var access_token = "ACCESS_TOKEN";` du fichier `views\RechercheCandidat.vue`.
+Le problème le plus probable de se produire est le non fonctionnement de l'API Github en raison de l'expiration ou de l'invalidité de notre access token. Dans ce cas, nous vous prions d'utiliser votre access token, que vous pouvez trouver ici [https://github.com/settings/tokens](https://github.com/settings/tokens).  Pour que votre access token soit pris en compte par GitInspector, vous devez modifier la ligne `var access_token = "ACCESS_TOKEN";` du fichier `views\RechercheCandidat.vue`.

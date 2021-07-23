@@ -31,7 +31,7 @@
 
 <script>
 
-document.title = 'GitInpector - Connexion'
+document.title = 'GitInspector - Connexion'
 
 export default {
 

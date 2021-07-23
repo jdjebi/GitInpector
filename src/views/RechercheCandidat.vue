@@ -66,7 +66,7 @@ import Comparator from "../components/RechercheCandidat/Comparator.vue";
 import CandidatCarte from "./../components/RechercheCandidat/Candidat/CandidatCarte.vue";
 import CandidatsPreviewBox from "../components/RechercheCandidat/CandidatsPreviewBox.vue";
 
-document.title = 'GitInpector'
+document.title = 'GitInspector'
 
 const { Octokit } = require("@octokit/rest");
 
@@ -192,6 +192,11 @@ export default {
                 })()
                 .catch(function(error){
                     alert("Connexion à Github impossible: " + error.message);
+
+                    if(error.message == "Bad credentials"){
+                        alert("Veuillez renseigner votre Github 'personnal access token' à la ligne 'var access_token = ...' du fichier views\\RechercheCandidat.vue, sans quoi vous ne pourrez pas utiliser l'application (https://github.com/settings/tokens).");
+                    }
+
                     vm.searching = false;
                     vm.users = null;
                 });
