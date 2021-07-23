@@ -50,6 +50,7 @@ npm install // Installation des dépendances
 
 npm run serve // Lancement de l'application ```
 En principe l'application se lancera à l'adresse suivante sinon consultez les logs de la dernière commande pour voir l'adresse: [http://localhost:8080/](http://localhost:8080/)
+```
 
 ## Manuel d'utilisation
 
